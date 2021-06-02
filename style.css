@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+nav.navbar.sticky-top.navbar-expand-lg.bg-dark {
+    background: transparent !important;
+}
+body .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10%;
+    position: relative;
+}
+ul.navbar-nav li {
+    padding: 0 25px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer, .footer a {
+color: #fff;
+}
+
+body{
+  /* position: relative; */
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+a.nav-link {
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 70px;
+  font-size: 16px;
+}
+
+.navbar-brand>img {
+  display: block;
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+section.first-sec {
+  position: relative;
+  background-image: url(../Hospital/image/landingpage-bg.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  clear: both;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 400px 0px 100px 0px;
+}
+section.first-sec:before,.second-three::before{
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  clear: both;
+  background-color: transparent;
+  background-image: linear-gradient( 
+45deg
+, #138fc7 0%, #44f3c9 100%);
+  opacity: 0.9;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.second-sec{
+  background-image: url(../Hospital/image/sectiontwo.jpg);
+  position: relative;
+  padding: 125px 0px 125px 0px;
+  background-attachment: scroll;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.second-three {
+  padding: 50px 0px;
+  background-image: url(../Hospital/image/slidethree.png);
+  position: relative;
+}
+footer {
+  background-image: url(../Hospital/image/footer-image.jpg);
+  position: relative;
+  padding: 125px 0px 125px 0px;
+  background-attachment: fixed;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  position: absolute;
+  width: 100%;
+}
+.background-overlay{
+  position: relative;
+}
+body h5{
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color:#fff;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+    padding-left:0px !important;
+  padding-right:0px !important;
+}
+body h1 {
+  font-size: 4.375rem;
+  font-weight: 700;
+  font-family: 'Open Sans',sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 25px 0px;
+}
+
+.background-overlay.container p {
+  width: 50%;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  font-size: 1rem;
+  color: #fff;
+}
+button.read_more {
+  border-color: rgba(1,146,188,0.84);
+  font-family: 'Open Sans',sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  padding-top: 14px;
+  padding-right: 40px;
+  padding-bottom: 14px;
+  padding-left: 40px;
+  margin-top: 15px;
+}
+.divider {
+  border-style: solid;
+  border-color: rgba(255,255,255,0.3);
+  width: 76px;
+  margin: 20px 0px;
+}
+button.read_more:hover {
+  /* background: transparent; */
+  opacity: 0.7;
+}
+.top-sec {
+  border-radius: 10px 10px 0px 0px;
+  background-color: transparent;
+  background-image: linear-gradient( 
+45deg
+, #138fc7 0%, #44f3c9 100%);
+  padding: 40px 40px 30px 40px;
+}
+body h3 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  font-family: 'Open Sans',sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+i.fa.fa-phone {
+  color: #ffff;
+  font-weight: 900;
+  font-size: 22px;
+}
+.top-sec  a {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.card-devi{
+  border-style: solid;
+  border-color: rgba(255,255,255,0.3);
+  border-width: 1px;
+}
+.top-sec p {
+  color: #fff;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+p{
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+.row{
+  margin-right: 0px  !important;
+  margin-left: 0px !important;
+}
+.bottom-sec {
+  background: #fff;
+  border-radius: 0px 0px 10px 10px;
+  padding: 0px 40px 50px 40px;
+}
+.left-txt{
+  float: right;
+}
+.div-card {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.bottom-sec h3 {
+  color: #0192bc;
+  text-align: center;
+  padding: 30px 0px 15px 0;
+}
+.bottom-sec p ,.sec-left-txt p{
+  color: #749cad;
+}
+.sec-left-txt{
+  padding-right: 100px !important;
+
+}
+.sec-left-txt h2,.news-feed h2{
+  font-size: 3.125rem;
+  font-weight: 700;
+  font-family: 'Open Sans',sans-serif;
+  color: #0192bc;
+}
+.sec-left-txt .divider,.second-four .divider{
+  border-color: rgba(1,146,188,0.1);
+}
+
+.inner_sec {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgba(255,255,255,0.5);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 15px 15px 15px 15px;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.inner_sec h5 a {
+  color: #fff !important;
+}
+.inner_sec img{
+  margin-bottom: 25px;
+}
+.inner_sec:hover {
+  background-color: rgba(255,255,255,0.1);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgba(255,255,255,0.2);
+}
+/* section.second-three {
+  padding: 100px 0px;
+} */
+section.second-three h5 {
+  text-align: center;
+}
+body section.second-three h2 {
+  font-size: 50px;
+  font-size: 3.125rem;
+  font-weight: 700;
+  font-family: 'Open Sans',sans-serif;
+  text-align: center;
+  color: #fff;
+}
+section.second-three .divider {
+  text-align: center;
+  margin: 50px auto;
+}
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.card {
+  margin: 30px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+}
+.card h3 {
+  color: #0192bc;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.card p {
+  text-align: center;
+  padding: 0px 20px;
+  margin-bottom: 40px;
+}
+section.news-feed h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.card a{
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+section.second-four{
+  text-align: center;
+  padding: 100px 0px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  background-color: #0093E9;
+  background-image: linear-gradient(
+160deg
+, #0093E9 0%, #80D0C7 100%);
+  color: #fff;
+}
+.book_meeting a {
+  color: #fff;
+  font-weight: bold;
+  padding: 13px;
+  background: #fff;
+  color: #0192bc;
+}
+section.about-head,.contactus-banner,.staff-banner,.booking-banner,.Signup-banner {
+  position: relative;
+  background-image: url(../Hospital/image/thirdsec.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 250px 0px 50px 0px;
+}
+.contactus-banner{
+  background-image: url(../Hospital/image/contact-bg.jpg);
+  text-align: center;
+}
+.staff-banner{
+  background-image: url(../Hospital/image/slidethree.png);
+  text-align: center;
+  background-position: top center;
+}
+.booking-banner{
+  background-image: url(../Hospital/image/booking-bg-one.jpg);
+  text-align: center;
+}
+.Signup-banner{
+  background-image: url(../Hospital/image/Welcome.png);
+  text-align: center;
+}
+section.about-head:before,.contactus-banner:before,.staff-banner:before,.booking-banner:before,.Signup-banner:before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  clear: both;
+  background-color: transparent;
+  background-image: linear-gradient( 
+45deg
+, #138fc7 0%, #44f3c9 100%);
+  opacity: 0.9;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+section.about-head h1 {
+  text-align: center;
+}
+section.about-head .divider,.contactus-banner .divider,.staff-banner .divider,.booking-banner .divider,.Signup-banner .divider {
+  text-align: center;
+  margin: 0px auto;
+}
+section.about-first-sec {
+  margin: 100px 0px;
+}
+.image_two {
+  margin-top: 100px;
+}
+section.about-first-sec img {
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 10%);
+}
+.text_right {
+  padding: 0 75px;
+}
+.right-side {
+  box-shadow: 0px 15px 30px 5px rgb(0 0 0 / 6%);
+}
+.text_right h3 {
+  text-align: center;
+  margin-top: 45px;
+  color: #0192bc;
+}
+.image_two p, .image_one p {
+  text-align: center;
+  padding-top: 20px;
+}
+.mission-top h3 {
+  color: #0192bc;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.mission-top {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: center;
+}
+.mission-sec, .vision-sec {
+  padding: 30px 50px;
+  box-shadow: 0px 15px 30px 5px rgb(0 0 0 / 6%);
+  margin: 0px 30px;
+}
+section.about_below {
+  margin: 70px 0px;
+}
+section.about_below p {
+  text-align: center;
+  margin-top: 30px;
+}
+@keyframes spin { 
+  100% { 
+    transform: rotateZ(360deg);
+  }
+}
+.map-container-6{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-6 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+  input, optgroup, select, textarea {
+    width: 75%;
+    margin: 20px auto !important;
+    display: block;
+    height: 45px;
+    border: 1px solid;
+    border-color: #ebebeb;
+    border-radius:5px
+    
+}
+::-webkit-input-placeholder { /* Edge */
+ padding-left:20px;
+}
+input[type="submit"] {
+  width: 35%;
+  background: #0192bc;
+  color: #fff;
+  font-weight: bold;
+}
+textarea{
+  padding-top: 10px;
+}
+
+.contact_first p {
+  margin-bottom: 0px;
+}
+i.fas {
+  color: #0192bc;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.staffimg img {
+  width: 100%;
+}
+
+.sub-section {
+  padding: 35px;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgba(219,222,224,0.4);
+  box-shadow: 0px 15px 30px 5px rgb(0 0 0 / 6%);
+  margin: 30px;
+}
+
+.content-section h3 {
+  color: #0192bc;
+  font-size: 24px;
+}
+.content-section {
+  padding-left: 30px;
+}
+
+.online-delivery img {
+width: 65%;
+padding-top: 10px;
+}
+
+.online-delivery h5 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  font-family: 'Open Sans',sans-serif;
+  color: #0192bc;
+}
+.modal-body{
+  text-align: center;
+}
+.form-control {
+  margin: 0px !important;
+}
+.signup_frm {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.signup_frm h4 {
+  margin-left: 35%;
+  margin-bottom: 10%;
+  margin-top: -5%;
+  font-family: auto;
+}
+
+.btn-primary {
+  margin-left: 85%;
+  margin-top: 5%;
+}
